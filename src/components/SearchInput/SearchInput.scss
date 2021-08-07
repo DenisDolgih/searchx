@@ -1,0 +1,11 @@
+@import "../../styleParams.scss";
+
+.SearchInput{
+    width: calc(#{$searchWidth} - 20px );
+    border: none;
+    margin-bottom: 0;
+    font-size: large;
+    &:focus{
+        outline: none;
+    }
+}

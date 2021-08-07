@@ -1,0 +1,22 @@
+@import "./styleParams.scss";
+
+.App {
+  display: block;
+  text-align: center;
+  width: $searchWidth;
+  min-width: 400px;
+  margin: 0 auto;
+    h1{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .searchField{
+      margin: 0 auto;
+      z-index: 100;
+      border: 1px solid grey;
+      width: $searchWidth;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+      box-shadow: 4px 2px 2px gray;
+      background-color: white;
+    }
+}

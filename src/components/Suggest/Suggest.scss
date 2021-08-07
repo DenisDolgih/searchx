@@ -1,0 +1,38 @@
+.suggest{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: white;
+    &:hover{
+        background-color: lavender;
+    }
+    .suggestText{
+        width: 100%;
+        text-align: left;
+        &.inHistory{
+            color: purple;
+            &::before{
+                content: "🕓 ";
+                font-size: x-small;
+            }
+        }
+        &.notInHistory{
+            color: black;
+            &::before{
+                content: "🔍 ";
+                font-size: x-small;
+            }
+        }
+    }
+    .suggestDelete{
+        font-size: small;
+        color: gray;
+        // &::before{
+        //     content: "Q ";
+        // }
+        &:hover{
+            color:red;
+        }
+    }
+}
