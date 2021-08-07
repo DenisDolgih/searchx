@@ -1,4 +1,4 @@
-searchx
+# searchx
 test task for Matrix Global
 deployed at https://searchx-a5674.web.app/
 1. There are an input where you can type.
